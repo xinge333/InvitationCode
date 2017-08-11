@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="InvitationCode@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="InvitationCode">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="how2java"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="local_test"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="Registry"/>
+    <schema id="9" parent="1" name="seewo_dubbo_test"/>
+    <schema id="10" parent="1" name="sys"/>
+  </database-model>
+</dataSource>
