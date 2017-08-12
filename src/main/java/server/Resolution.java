@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by zxy on 2017/8/10.
+ * 测试使用，该类不用
  */
 public class Resolution {
 
