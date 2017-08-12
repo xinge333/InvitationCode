@@ -91,9 +91,7 @@ class ServerThread implements Runnable{
                     }
                     //判断是否已经获取过
                     else if(schoolDao.isRegisted(shoolName)){
-                        dataOutputStream.writeUTF("您已经申请过邀请码，请不要重复申请");
-                        dataOutputStream.flush();
-                        dataOutputStream.writeUTF(schoolDao.queryByName(shoolName).getCode());    //可以打印此处用户已经申请的code
+                        dataOutputStream.writeUTF("您已经申请过邀请码，请不要重复申请"+"\n"+"您申请的邀请码为："+schoolDao.queryByName(shoolName).getCode());
                         dataOutputStream.flush();
                     }
                     else {

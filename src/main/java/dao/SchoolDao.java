@@ -77,6 +77,7 @@ public class SchoolDao {
 
     //根据名称查询某个学校的邀请码
     public School queryByName(String schoolName) throws SQLException {
+
         School school = null;
         Connection conn = DBschool.getConnection();
 

@@ -2,7 +2,7 @@ package server;
 
 /**
  * Created by zxy on 2017/8/10.
- * 加密算法
+ * 加密算法，这个类不用，测试用
  */
 public class Caesar {
     private String table;

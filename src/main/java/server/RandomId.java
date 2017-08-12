@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by zxy on 2017/8/10.
+ * 这个类不用，之前考虑生成邀请码的思路之一
  */
 public class RandomId {
     private Random random;
